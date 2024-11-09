@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Osaka</title>
+    <link rel="stylesheet" href="idk.css">
+    <script defer src="idk.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <h1>Discover Osaka</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to Osaka</h2>
+        <p>Explore the vibrant culture, cuisine, and sights of Osaka, Japan. From the historical Osaka Castle to the dazzling Dotonbori district, Osaka offers something for everyone.</p>
+    </section>
+
+    <section id="attractions" class="section">
+        <h2>Top Attractions in Osaka</h2>
+        <div class="attraction-list">
+            <div class="attraction">
+                <h3>Osaka Castle</h3>
+                <img src = "osakacastle.jpg" alt="Osaka Castle">
+                <p>An iconic symbol of Osaka, featuring a beautiful park and museum.</p>
+            </div>
+            <div class="attraction">
+                <h3>Dotonbori</h3>
+                <img src="dotonbori.jpg" alt="Dotonbori">
+                <p>A lively area known for street food, neon lights, and the famous Glico sign.</p>
+            </div>
+            <div class="attraction">
+                <h3>Shinsaibashi Shopping Street</h3>
+                <img src="shinsaibashisuji.jpg" alt="Shinsaibashi">
+                <p>A bustling shopping area with countless stores, cafes, and boutiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+            <p id="responseMessage"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p> 2024 Discover Osaka Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
