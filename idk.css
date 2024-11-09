@@ -55,6 +55,11 @@ header nav ul li a {
     height: auto;
 }
 
+.attraction:hover img{
+    transform: scale(1.5);
+    transform-origin: centre centre;
+}
+
 form {
     max-width: 400px;
     margin: auto;
